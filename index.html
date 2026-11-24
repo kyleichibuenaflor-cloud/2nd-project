@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyleichi Buenaflor | Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toolbar no-print">
+    <button id="themeToggle" aria-label="Toggle dark mode">🌙 Dark mode</button>
+    <button id="printBtn">🖨️ Print / Save PDF</button>
+  </div>
+
+  <main class="resume">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="avatar">KB</div>
+      <h1>Kyleichi<br />Buenaflor</h1>
+      <p class="role">BSIT Student · <span id="typed"></span><span class="cursor">|</span></p>
+
+      <section>
+        <h2>Contact</h2>
+        <ul class="contact">
+          <li>📍 Parañaque City, Philippines</li>
+          <li>📧 your.email@example.com</li>
+          <li>📱 09XX-XXX-XXXX</li>
+          <li>🔗 github.com/your-username</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Personal Info</h2>
+        <ul class="contact">
+          <li>🎂 19 years old</li>
+          <li>🗣️ English, Filipino</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <div class="tags">
+          <span>Web Design</span>
+          <span>Programming</span>
+          <span>Problem Solving</span>
+          <span>Technology</span>
+        </div>
+      </section>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I'm a 19-year-old second-year Bachelor of Science in Information Technology
+          student at Olivarez College Parañaque. I enjoy building clean, responsive web
+          pages and writing programs in Java. I'm motivated to keep learning, take on
+          real projects, and grow into a skilled software developer.
+        </p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item-head">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <span class="date">2024 – Present</span>
+          </div>
+          <p class="sub">Olivarez College, Parañaque</p>
+          <p>Currently in 2nd year, focusing on programming, web development, and IT fundamentals.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <div class="skill">
+          <div class="skill-label"><span>HTML</span><span>90%</span></div>
+          <div class="bar"><div class="fill" data-level="90"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>CSS</span><span>85%</span></div>
+          <div class="bar"><div class="fill" data-level="85"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>Java</span><span>80%</span></div>
+          <div class="bar"><div class="fill" data-level="80"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label"><span>JavaScript</span><span>50%</span></div>
+          <div class="bar"><div class="fill" data-level="50"></div></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="item">
+          <div class="item-head">
+            <h3>Personal Resume Website</h3>
+            <span class="date">2026</span>
+          </div>
+          <p>Interactive resume built with HTML, CSS, and JavaScript, featuring dark mode, animated skill bars, and print-friendly layout.</p>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <h3>Java Console Applications</h3>
+            <span class="date">School Projects</span>
+          </div>
+          <p>Built beginner-to-intermediate Java programs applying object-oriented programming concepts.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Soft Skills</h2>
+        <div class="tags">
+          <span>Teamwork</span>
+          <span>Fast Learner</span>
+          <span>Time Management</span>
+          <span>Communication</span>
+          <span>Creativity</span>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="no-print">© <span id="year"></span> Kyleichi Buenaflor</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
